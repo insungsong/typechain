@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "dist",
+        "target": "es5",		// 컴파일 후 생성될 파일의 ECMAScript 버전
+        "esModuleInterop": true	// 'require'와 'import' 호환
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
